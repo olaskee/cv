@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 2em ;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.5em;
+  color: #71c9ce;
+  font-weight: 500;
+}
+
+.logo-slogan {
+  font-family: 'Montserrat', sans-serif;
+  color: #71c9ce;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 2;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #71c9ce;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #11999E;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+a:hover {
+  color: #EAF6F6;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #393e46;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 2;
+}
+
+/* ######### top container */
+
+.top-container {
+  background-color: #EAF6F6;
+  height: 100vh;
+  position: relative;
+  padding-left: 3rem;
+}
+
+.land {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 3rem;
+  right: 12rem;
+}
+.bottom-cloud {
+  position: absolute;
+  bottom: 20rem;
+  left: 14rem;
+}
+
+/* ######### middle container */
+.middle-container {
+  display: block;
+  padding: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: 0 auto;
+}
+.profile-pic {
+  height: 150px;
+}
+
+hr {
+  width: 5%;
+  margin: 100px auto;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+/*  border-width: 6px;
+  border-color: #EAF6F6;
+  border-top-style: dotted; */
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.code-icon {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.marketing-icon {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-desc {
+  width: 50%;
+  margin: 40px auto;
+}
+
+/* ######### contact me botton */
+.btn {
+  background-color: #11999e;
+  border-radius: 5px;
+  padding: 13px 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #00adb5;
+  color: #fff;
+}
+
+.fas {
+  padding-right: 10px;
+}
+
+/* ######### bottom container */
+
+.bottom-container {
+  display: block;
+  background-color: #66BFBF;
+  padding: 40px 0 20px;
+}
+
+.footer-link {
+  font-weight: 500;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.credit {
+  margin: 0;
+  padding: 15px 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-style: normal;
+}
